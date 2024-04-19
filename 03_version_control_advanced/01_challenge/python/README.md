@@ -1,4 +1,4 @@
-# チャレンジ 1: バージョン管理 (Pythonバージョン)
+# チャレンジ 1: バージョン管理 (発展) (Pythonバージョン)
 
 # はじめに
 
@@ -12,11 +12,11 @@
 
 このタスクでは、このフォルダにある `tconv.py` に変更を加えます。
 
-ファイルの場所: `03_version_control_advanced\01_challenge\python\tconv.py`.
+ファイルの場所: `03_version_control_advanced\01_challenge\python\tconv.py`
 
-1. プロジェクトを自分のマシンにクローンします。
+1. このリポジトリを自分のマシンにクローンします。
 2. ブランチ `fahrenheit-to-celsius` を作成し、そのブランチに切り替えます。
-3. `tconv.py` の中に、華氏から摂氏に温度を変換する関数 `convertFahrenheitToCelsius` を書きます。温度の変換には `C = 5/9 * (F - 32)` という数式を使用します。
+3. `tconv.py` の中に、華氏から摂氏に温度を変換する関数 `convert_fahrenheit_to_celsius` を書きます。温度の変換には `C = 5/9 * (F - 32)` という数式を使用します。
 4. 変更をステージング領域に追加してコミットします。
 5. ブランチ `fahrenheit-to-celsius` をリモートリポジトリにプッシュします。
 6. ブランチ `fahrenheit-to-celsius` からブランチ `main` にプルリクエスト (PR) を作成し、変更内容を PR の説明に明記します。その際、必ず自分の名前を入力してください。
@@ -36,7 +36,7 @@
 
 4. 変更をステージング領域に追加してコミットします。
 5. `main` ブランチに戻ります。
-6. 関数 `main` に次のコードを追加します。
+6. 次のコードを追加します。
 
 ```python
 def main():
